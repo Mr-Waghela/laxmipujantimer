@@ -55,6 +55,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+  border:2px solid ;
 }
 
 #countdown .circle svg {
@@ -278,34 +280,18 @@ ion-icon[name="snow-outline"] {
   <h1 class="text">Incoming New Ride!</h1>
   <div id="countdown">
     <div class="circle" style="--clr: #ff4c4c;">
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="dd"></circle>
-      </svg>
       <div id="days">000<br><span>Days</span></div>
     </div>
 
     <div class="circle" style="--clr: #ffd700;">
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="hh"></circle>
-      </svg>
       <div id="hours">00<br><span>Hours</span></div>
     </div>
 
     <div class="circle" style="--clr: #ffc0cb;">
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="mm"></circle>
-      </svg>
       <div id="minutes">00<br><span>Minutes</span></div>
     </div>
 
     <div class="circle" style="--clr: #b0e0e6;">
-      <svg>
-        <circle cx="70" cy="70" r="70"></circle>
-        <circle cx="70" cy="70" r="70" id="ss"></circle>
-      </svg>
       <div id="seconds">00<br><span>Seconds</span></div>
     </div>
   </div>
